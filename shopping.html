@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta information for the page -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Page</title>
+
+  <!-- Bulma CSS Framework -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+  <!-- Font Awesome for icons (used for GitHub icon) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="styles.css" type="text/css">
+
+  <!-- External JavaScript file (script.js) -->
+  <script src="script.js" defer></script>
+
+  <!-- Google Fonts (Roboto) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Hero section with a custom background -->
+  <section class="hero is-info is-large custom-hero-background">
+    <!-- Hero head section (navigation bar) -->
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <!-- Logo -->
+            <a class="navbar-item">
+              <img src="kilpatrick.png" alt="Logo" />
+            </a>
+            <!-- Navbar burger icon for mobile view -->
+            <span class="navbar-burger" data-target="navbarMenuHeroB">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+
+          <!-- Navbar menu (hidden on mobile, shows on desktop) -->
+          <div id="navbarMenuHeroB" class="navbar-menu">
+            <div class="navbar-end">
+              <!-- Navigation links in dropdown menu -->
+              <a class="navbar-item" href="index.html">Home</a>
+              <a class="navbar-item" href="shopping.html">Shopping</a>
+              <a class="navbar-item" href="contact.html">Contact</a>
+              <!-- Donate button with GitHub icon -->
+              <a class="button is-info is-inverted">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Donate</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero body section (title and subtitle) -->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <p class="title">Our Startup Company</p>
+        <p class="subtitle">Motto</p>
+      </div>
+    </div>
+
+    <!-- Hero footer (tabs for navigation) -->
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container">
+          <ul>
+            <!-- Navigation links -->
+            <li><a href="index.html">Home</a></li>
+            <li class="is-active"><a href="shopping.html">Shopping</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Section for character catalog and sushi buttons -->
+  <section class="section is-small">
+    <!-- Buttons for filtering characters and sushi -->
+    <button class="button is-halfwidth">Characters</button>
+    <button class="button is-halfwidth">Sushi/Other</button>
+    <button class="button is-halfwidth">All</button>
+    <hr>
+
+    <!-- Character Catalog Section -->
+    <section id="characters" class="section">
+      <div class="container">
+        <h2 class="title">Character Catalog</h2>
+        <!-- Columns container for the character cards -->
+        <div class="columns is-multiline">
+          <!-- Character 1: Kensei -->
+          <div class="column is-one-third">
+            <div class="box character-card">
+              <div class="character-inner">
+                <div class="character-front">
+                  <img src="kensei normal.png" alt="Kensei" class="character-image">
+                  <h3 class="character-name">Kensei</h3>
+                </div>
+                <div class="character-back">
+                  <h1>Kensei</h1>
+                  <h3>Description</h3>
+                  <p>n.a</p>
+                </div>
+              </div>
+            </div>
+            <!-- Buttons for selecting character variations -->
+          </div>
+       <!-- Brad Character -->
+        <div class="column is-one-third">
+          <div class="box character-card">
+            <div class="character-inner">
+              <div class="character-front">
+                <img src="brad reg.png" alt="Brad" class="character-image">
+                <h3 class="character-name">Brad</h3>
+              </div>
+              <div class="character-back">
+                <h1>Brad</h1>
+                <h3>Description</h3>
+                <p>n.a</p>
+              </div>
+            </div>
+          </div>
+  </div>
+  
+        <!-- Hanabi Character -->
+        <div class="column is-one-third">
+          <div class="box character-card">
+            <div class="character-inner">
+              <div class="character-front">
+                <img src="hanabi new.png" alt="Hanabi" class="character-image">
+                <h3 class="character-name">Hanabi</h3>
+              </div>
+              <div class="character-back">
+                <h1>Hanabi</h1>
+                <h3>Description</h3>
+                <p>n.a</p>
+              </div>
+            </div>
+          </div>
+ </div>
+  
+        <!-- Hoshimoto Character -->
+        <div class="column is-one-third">
+          <div class="box character-card">
+            <div class="character-inner">
+              <div class="character-front">
+                <img src=".png" alt="Hoshimoto" class="character-image">
+                <h3 class="character-name">Hoshimoto</h3>
+              </div>
+              <div class="character-back">
+                <h1>Hoshimoto</h1>
+                <h3>Description</h3>
+                <p>n.a</p>
+              </div>
+            </div>
+          </div>
+ </div>
+  
+        <!-- Aki Character -->
+        <div class="column is-one-third">
+          <div class="box character-card">
+            <div class="character-inner">
+              <div class="character-front">
+                <img src=".png" alt="Aki" class="character-image">
+                <h3 class="character-name">Aki</h3>
+              </div>
+              <div class="character-back">
+                <h1>Aki</h1>
+                <h3>Description</h3>
+                <p>n.a</p>
+              </div>
+            </div>
+          </div>
+  </div>
+  
+        <!-- Government Character -->
+        <div class="column is-one-third">
+          <div class="box character-card">
+            <div class="character-inner">
+              <div class="character-front">
+                <img src=".png" alt="The Government" class="character-image">
+                <h3 class="character-name">The Government</h3>
+              </div>
+              <div class="character-back">
+                <h1>The Government</h1>
+                <h3>Description</h3>
+                <p>n.a</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div> <!-- End columns -->
+    </div> <!-- End container -->
+  </section>
+    
+      <section id="sushi" class="section2">
+        <div class="container">
+          <br>
+          <br>
+    
+          <h2 class="title">Sushi Types</h2>
+          <div class="columns is-multiline">
+            <br>
+            <!-- Sushi 1 -->
+            <div class="column is-one-fifth">
+              <div class="box sushi" data-sushi="sushi1">
+                <img src="sushi 1.png" alt="Sushi 1" class="sushi-image">
+                <h4 class="sushi-name">えび</h4>
+              </div>
+            </div>
+            <!-- Sushi 2 -->
+            <div class="column is-one-fifth">
+              <div class="box sushi" data-sushi="sushi2">
+                <img src="sushi 5.png" alt="Sushi 2" class="sushi-image">
+                <h4 class="sushi-name">サーモン</h4>
+              </div>
+            </div>
+            <div class="column is-one-fifth">
+                <div class="box sushi" data-sushi="sushi2">
+                  <img src="SUSHI 6.png" alt="Sushi 3" class="sushi-image">
+                  <h4 class="sushi-name">細巻</h4>
+                </div>
+              </div>
+              <div class="column is-one-fifth">
+                <div class="box sushi" data-sushi="sushi2">
+                  <img src="sushi 8.png" alt="Sushi 4" class="sushi-image">
+                  <h4 class="sushi-name">いくら</h4>
+                </div>
+              </div>
+              <div class="column is-one-fifth">
+                <div class="box sushi" data-sushi="sushi2">
+                  <img src="sushi 9.png" alt="Sushi 5" class="sushi-image">
+                  <h4 class="sushi-name">玉子 </h4>
+                </div>
+              </div>
+              <div class="column is-one-fifth">
+                <div class="box sushi" data-sushi="sushi2">
+                  <img src="sushi 2.png" alt="Sushi 6" class="sushi-image">
+                  <h4 class="sushi-name">おにぎり</h4>
+                </div>
+              </div>
+              <div class="column is-one-fifth">
+                <div class="box sushi" data-sushi="sushi2">
+                  <img src="sushi 10.png" alt="Sushi 7" class="sushi-image">
+                  <h4 class="sushi-name">だんご</h4>
+                </div>
+              </div>
+              <div class="column is-one-fifth">
+                <div class="box sushi" data-sushi="sushi2">
+                  <img src="sushi 7.png" alt="Sushi 8" class="sushi-image">
+                  <h4 class="sushi-name">たい焼き</h4>
+                </div>
+              </div>
+              <div class="column is-one-fifth">
+                <div class="box sushi" data-sushi="sushi2">
+                  <img src="sushi 3.png" alt="Sushi 9" class="sushi-image">
+                  <h4 class="sushi-name">酒</h4>
+                </div>
+              </div>
+              <div class="column is-one-fifth">
+                <div class="box sushi" data-sushi="sushi2">
+                  <img src="sushi 4.png" alt="Sushi 10" class="sushi-image">
+                  <h4 class="sushi-name">わさびq  1</h4>
+                </div>
+              </div>
+          </div>
+        </div>
+      
+      </section>
+  </section>
+  
+  <footer>
+    <div class="content has-text-centered">
+      <p>&copy; Group 1 <strong>Dhruv, Joanna, Jasmine, Stevie</strong></p>
+      <p id="current-date"></p>
+    </div>
+    
+    <!-- Social Media Icons for Mobile -->
+    <div class="social-icons">
+      <a href="#" title="Facebook" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" title="Twitter" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" title="Instagram" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" title="LinkedIn" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+    
+    <!-- Team Avatars for Desktop/Tablet -->
+    <div class="team-avatars" role="list" aria-label="Team members">
+      <img src="images/dhruv.jpg" alt="Dhruv" class="team-avatar" role="listitem">
+      <img src="IMG_6860.png" alt="Joanna" class="team-avatar" role="listitem">
+      <img src="images/jasmine.jpg" alt="Jasmine" class="team-avatar" role="listitem">
+      <img src="images/stevie.jpg" alt="Stevie" class="team-avatar" role="listitem">
+    </div>
+  </footer>
+
+</body>
+
+</html>

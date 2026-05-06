@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags for character encoding and responsive design -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- For responsive layout -->
+  <title>Contact Page</title> <!-- Title displayed in the browser tab -->
+
+  <!-- Bulma CSS framework for styling the page -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+  <!-- Font Awesome for icons (e.g., GitHub icon) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <!-- Link to custom stylesheet (for additional styling) -->
+  <link rel="stylesheet" href="styles.css" type="text/css">
+
+  <!-- JavaScript file (deferred loading after HTML parsing) -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Hero Section (large introductory section with background) -->
+  <section class="hero is-info is-large custom-hero-background">
+    <div class="hero-head">
+      <!-- Navbar (top navigation bar with logo and links) -->
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <!-- Logo of the website (linked image) -->
+            <a class="navbar-item">
+              <img src="kilpatrick.png" alt="Logo" />
+            </a>
+            <!-- Hamburger menu for mobile navigation -->
+            <span class="navbar-burger" data-target="navbarMenuHeroB">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <!-- Menu for additional navigation options -->
+          <div id="navbarMenuHeroB" class="navbar-menu">
+            <div class="navbar-end">
+              <!-- Navigation links in dropdown menu -->
+              <a class="navbar-item" href="index.html">Home</a>
+              <a class="navbar-item" href="shopping.html">Shopping</a>
+              <a class="navbar-item" href="contact.html">Contact</a>
+              <!-- 'Donate' button with GitHub icon -->
+              <a class="button is-info is-inverted">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Donate</span> <!-- Button text -->
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Main content of the hero section (title and subtitle) -->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <p class="title">Our Startup Company</p> <!-- Main title -->
+        <p class="subtitle">Motto</p> <!-- Subtitle -->
+      </div>
+    </div>
+
+    <!-- Navigation tabs at the bottom of the hero section -->
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container">
+          <ul>
+            <!-- Navigation links (Home, Character Catalog, Contact) -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shopping.html">Shopping</a></li>
+            <li class="is-active"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Section to provide description of the project -->
+  <section class="section is-large">
+    <h1 class="title">Feel Free To Reach Out</h1>
+    <h2 class="subtitle">
+      Office hours: Mon–Fri, 9:00A.M.– 6:00P.M.
+      
+    </h2>
+  </section>
+  
+  <!-- Footer section with copyright information -->
+  <footer>
+    <div class="content has-text-centered">
+      <p>&copy; Group 1 <strong>Dhruv, Joanna, Jasmine, Stevie</strong></p>
+      <p id="current-date"></p>
+    </div>
+    
+    <!-- Social Media Icons for Mobile -->
+    <div class="social-icons">
+      <a href="#" title="Facebook" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" title="Twitter" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" title="Instagram" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" title="LinkedIn" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+    
+    <!-- Team Avatars for Desktop/Tablet -->
+    <div class="team-avatars" role="list" aria-label="Team members">
+      <img src="images/dhruv.jpg" alt="Dhruv" class="team-avatar" role="listitem">
+      <img src="IMG_6860.png" alt="Joanna" class="team-avatar" role="listitem">
+      <img src="images/jasmine.jpg" alt="Jasmine" class="team-avatar" role="listitem">
+      <img src="images/stevie.jpg" alt="Stevie" class="team-avatar" role="listitem">
+    </div>
+  </footer>
+  
+
+</body>
+
+</html>
